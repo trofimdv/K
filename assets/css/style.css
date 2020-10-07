@@ -1,13 +1,13 @@
 /*размер и позиционирование логотипа*/
 .logo {
 	position: absolute;
-	max-width: 100%;
+	max-width: 74%;
 	padding-left: 5%;
     padding-top: 5%;
 }
 
 .nav>li>a {    
-    padding: 10px 12px;
+    padding: 10px 8px;
 }
 
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {    
