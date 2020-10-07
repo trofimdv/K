@@ -1,13 +1,4 @@
-.col-lg-8 {
-	padding: 0px;
-}
-
-
-.col-lg-8 ul {
-	padding-top: 3%;
-    padding-bottom: 3%;
-}
-
+/*размер и позиционирование логотипа*/
 .logo {
 	position: absolute;
 	max-width: 100%;
@@ -15,26 +6,10 @@
     padding-top: 5%;
 }
 
-.ikon {
-	font-size: 18px;
-}
-/*
-.col-sm-2 .ikon {
-	font-size: 13px;
-}
-*/
-.navbar .col-lg-2 {
-	padding: 0px 0px;
-}
-
 .nav>li>a {    
     padding: 10px 12px;
 }
-/*
-.col-sm-8 .nav>li>a {
-    padding: 10px 3px;
-}
-*/
+
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {    
     background-color: #ea9121;
 }
@@ -48,8 +23,8 @@
 }
 
 .navbar-inverse {
-	background-color: #120205;
-	/*padding: 1%;*/
+	/*background-color: #120205;*/
+	background-color: pink;	
     border-radius: 0;
 }
 
@@ -58,25 +33,37 @@
     display:inline-block;
 }
 
-.nav, .nav-pills {
-    text-align:center;
+.meny {
+	padding-top: 3%;
+    padding-bottom: 3%;
+	text-align:center;
+}
+/*
+.nav, .nav-pills {	
+	text-align:center;
+		
 }
 /*2 предыдущих нава выравнивают по центру меню горизонтальное*/
 
 .navbar {
 	margin-bottom: 0px;
 	border: 0px;
-}
+	/*max-height: 100px;
+*/}
 
 .navbar-collapse {
-
 	padding-right: 0px;
     padding-left: 0px;
 
 }
+.test {
+	/*padding-right: 10px;
+*/}
 
 .ikon {
+	font-size: 18px;
 	color: white;
+	text-align:center;
 }
 
 .main1 {
@@ -87,26 +74,18 @@
 }
 
 .main1_text {
-	font-family: Sunday;
-	font-size: 63px;
-	top	: 185px;	
-	width: 100%;
-	position: absolute;
-	color: white;
+	text-align: center;
+    font-family: Sunday;
+    font-size: 63px;    
+    color: white;
+    padding-top: 25px;
 }
-
-@font-face {
-    font-family: Sunday; /* Гарнитура шрифта */
-    src: url(../fonts/Sunday.ttf); /* Путь к файлу со шрифтом */
-}
- 
 
 .main2 {
 	margin-top: 60px;	
 	min-height: 300px;	
 	height: auto;
 }
-
 
 .main2_text {
 	margin: 10px 10px;
@@ -134,27 +113,6 @@
 	height: auto;
 }
 
-@media (max-width: 767px) {
-	.nav-pills>li {
-		float: none
-	}
-
-
-	.nav-pills {
-		text-align: center;
-	}
-
-	.header h1 {
-		letter-spacing: 5px;
-		font-size: 280%;
-	}
-}
-/*
-.clear {
-	clear: both;
-	height: 70px;
-}
-*/
 .wrapper {
 	min-height: 100%;
 }
@@ -162,7 +120,6 @@
 html, body {
 	height: 100%;
 }
-
 
 footer {
 	color: #666;
@@ -177,4 +134,9 @@ footer a {
 
 footer a:hover {
 	color: white;
+}
+
+@font-face {
+    font-family: Sunday; /* Гарнитура шрифта */
+    src: url(../fonts/Sunday.ttf); /* Путь к файлу со шрифтом */
 }
