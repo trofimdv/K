@@ -2,6 +2,25 @@
 
 
 
+@media (max-width: 1199px) {
+	.ikon {
+		font-size: 14px;
+				
+	}
+
+	.meny {
+		font-size: 14px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+
+	
+	
+
+}
+
+
+
 
 
 /*
