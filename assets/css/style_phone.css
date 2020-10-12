@@ -37,6 +37,18 @@
 		max-width: 93%;
 	}
 }
+
+/*настройка для экранов xs*/
+@media (max-width: 767px) {
+	.nav-pills>li {
+		float: none;
+		display: contents;
+	}
+	
+
+
+
+}
 /*
 @media (max-width: 991px) {
 	.nav>li>a {
